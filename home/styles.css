@@ -1,0 +1,103 @@
+body {
+  background-image: url('backgr.png');
+  color: black;
+  font-family: verdana;
+}
+
+h1, h2, h3, p {
+    text-align: center;
+    color: #ffffff;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.title {
+    background-color: whitesmoke;
+    max-width: 792px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.outlined {
+  color: blanchedalmond;
+  text-shadow:
+    -1px -1px 0 blue,
+     0   -1px 0 red,
+     1px -1px 0 orange,
+     1px  0   0 green,
+     1px  1px 0 #000,
+     0    1px 0 #000,
+    -1px  1px 0 #000,
+    -1px  0   0 #000;
+}
+
+.soutlined {
+  color: whitesmoke;
+  text-decoration: none;
+  text-shadow:
+    -1px -1px 0 #000,
+    0   -1px 0 #000,
+    1px -1px 0 #000,
+    1px  0   0 #000,
+    1px  1px 0 #000,
+    0    1px 0 #000,
+    -1px  1px 0 #000,
+    -1px  0   0 #000;
+}
+
+.navigation {
+  background-color: whitesmoke;
+  height: 25px;
+  max-width: 794px;
+  margin: 2px auto auto auto;
+  font-size: 15px;
+  display: flex;
+}
+
+.navigation li {
+  display: block;
+  color: white;
+  text-align: center;
+  height: 25px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  width: fit-content;
+  flex: 20%;
+}
+
+.navigation li:hover {
+  background-color: grey;
+}
+
+.navigation li a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.box {
+  background-color: black;
+  border: 2px solid whitesmoke;
+  padding: 2px;
+  margin: 6px auto;
+  margin-bottom: 100px;
+  max-width: 786px;
+  color: whitesmoke;
+}
+
+.box img {
+  margin-left: 25%;
+  border: 2px solid whitesmoke;
+  margin-bottom: 10px;
+}
+
+.player {
+  margin: auto;
+}
